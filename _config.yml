@@ -1,0 +1,17 @@
+title: My Jekyll Site
+description: This is a simple website built with Jekyll and hosted on GitHub Pages.
+baseurl: "/jekyll"
+url: "https://arnavkrishnan.github.io"
+github_username: arnavkrishnan
+markdown: kramdown
+theme: jekyll-theme-minimal
+permalink: /:year/:month/:day/:title/
+exclude:
+  - README.md
+  - LICENSE
+plugins:
+  - jekyll-feed
+kramdown:
+  input: GFM
+include:
+  - _pages
